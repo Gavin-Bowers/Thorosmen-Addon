@@ -2,9 +2,9 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "Feffins",
     "description": "!LOC:It's Feffin' Time!",
-    "max_health": 12000,
-    "build_metal_cost": 30000,
-    "atrophy_rate": 240,
+    "max_health": 4000,
+    "build_metal_cost": 6000,
+    "atrophy_rate": 120,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "unit_types": [

@@ -1,5 +1,6 @@
 var paeiouIcons = [ 
     "fefkins",
-    "mini-fef"
+    "mini-fef",
+    "land_barier_big"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

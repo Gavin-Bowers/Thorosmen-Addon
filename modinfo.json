@@ -1,0 +1,35 @@
+{
+    "identifier": "com.pa.gavinb.thorosmen-addon-dev",
+    "display_name": "Gavin's Thorosmen Addon",
+    "description": "Adds one unit at the moment",
+    "author": "Gavin",
+    "signature": "not yet implemented",
+    "download": "https://github.com/ATLASLORD/Thorosmen/archive/refs/heads/main.zip",
+    "priority": 99,
+    "icon": "https://i.imgur.com/VyWeoHd.png",
+    "forum": "https://github.com/ATLASLORD/Thorosmen",
+    "titansOnly": true,
+    "enabled": true,
+    "category": [
+        "balance",
+        "addon",
+        "unit",
+        "titans",
+        "expansion"
+    ],
+    "scenes": {
+        "shared_build": [
+            "coui://ui/mods/gavinb.thorosmen-addon/shared_build.js"
+        ],
+        "icon_atlas": [
+            "coui://ui/mods/gavinb.thorosmen-addon/icon_atlas.js"
+        ]
+    },
+    "context": "server",
+    "date": "2023-07-19",
+    "build": "116982",
+    "version": "0.1",
+    "dependencies": [
+		"com.pa.loloares.thorosmen"
+	]
+}

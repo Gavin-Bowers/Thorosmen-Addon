@@ -1,0 +1,162 @@
+{
+  "display_name": "!LOC:Advanced Wall",
+  "description": "!LOC:Advanced Wall - Extremely durable. Blocks enemy fire and movement.",
+  "TEMP_texelinfo": 7.58193,
+  "alt_area_build_pattern": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "alt_area_build_separation": 1.7,
+  "alt_area_build_type": "Sphere",
+  "alt_area_max_radius": 200.0,
+  "area_build_separation": 1.7,
+  "atrophy_cool_down": 0.5,
+  "atrophy_rate": 20,
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 300,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/barrier"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/barrier",
+      "effect_scale": 1.25,
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    }
+  },
+  "max_health": 10000,
+  "mesh_bounds": [
+    7,
+    7,
+    16
+  ],
+  "model": [
+    {
+      "filename": "/pa/units/th-addon/land_wall_big/land_wall_big.papa",
+      "layer": "WL_LandHorizontal"
+    },
+    {
+      "filename": "/pa/units/th-addon/land_wall_big/land_wall_big.papa",
+      "layer": "WL_WaterSurface"
+    }
+  ],
+  "placement_size": [
+    7,
+    7
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 1,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 8
+  },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "structure": {
+    "cost_stamp": {
+      "shape": "box",
+      "type_data": [
+        {
+          "move_type": "land-small",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "amphibious",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "amphibious-large",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "hover",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "hover-large",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "deepwater",
+          "stamp_type": "wall"
+        },
+        {
+          "move_type": "underwater",
+          "stamp_type": "wall"
+        }
+      ]
+    }
+  },
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Wall",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom58"
+  ],
+  "wreckage_health_frac": 0.0
+}

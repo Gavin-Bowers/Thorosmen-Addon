@@ -1,7 +1,7 @@
 {
   "display_name": "!LOC:Advanced Wall",
   "description": "!LOC:Advanced Wall - Extremely durable. Blocks enemy fire and movement.",
-  "TEMP_texelinfo": 7.58193,
+  "TEMP_texelinfo": 26.6522,
   "alt_area_build_pattern": [
     [
       0,
@@ -69,7 +69,7 @@
   "atrophy_cool_down": 0.5,
   "atrophy_rate": 20,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 300,
+  "build_metal_cost": 200,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/barrier"
@@ -106,14 +106,14 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 1,
+          "radius": 50,
           "shape": "capsule"
         }
       ]
     }
   },
   "selection_icon": {
-    "diameter": 8
+    "diameter": 10
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "structure": {

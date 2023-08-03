@@ -24,6 +24,7 @@
     "ORDER_Assist"
   ],
   "energy_efficiency_requirement": 0.9,
+  "consumption":{"energy":8000},
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/radar"
@@ -35,60 +36,14 @@
       "audio_cue": "/SE/Death/radar"
     }
   },
-  "fx_offsets": [
-    {
-      "type": "energy",
-      "filename": "/pa/units/orbital/orbital_probe/orbital_probe_on.pfx",
-      "bone": "bone_body"
-    },
-    {
-      "type": "energy",
-      "filename": "/pa/units/orbital/orbital_probe/orbital_probe_antenna_on.pfx",
-      "bone": "bone_antenna01"
-    },
-    {
-      "type": "energy",
-      "filename": "/pa/units/orbital/orbital_probe/orbital_probe_antenna_on.pfx",
-      "bone": "bone_antenna02"
-    },
-    {
-      "type": "energy",
-      "filename": "/pa/units/orbital/orbital_probe/orbital_probe_antenna_on.pfx",
-      "bone": "bone_antenna03"
-    },
-    {
-      "type": "moving",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
-      "bone": "bone_body",
-      "offset": [
-        0,
-        -5.87,
-        0
-      ],
-      "orientation": [
-        0,
-        180,
-        0
-      ]
-    }
-  ],
   "max_health": 8000,
   "mesh_bounds": [
-    20,
-    20,
-    15
+    30,
+    30,
+    25
   ],
   "model": {
-    "filename": "/pa/units/orbital/orbital_probe/orbital_probe.papa",
-    "animations": {
-      "closed": "/pa/units/orbital/orbital_probe/orbital_probe_anim_closed.papa",
-      "deploy": "/pa/units/orbital/orbital_probe/orbital_probe_anim_deploy.papa",
-      "flying": "/pa/units/orbital/orbital_probe/orbital_probe_anim_flying.papa",
-      "idle": "/pa/units/orbital/orbital_probe/orbital_probe_anim_idle.papa",
-      "start": "/pa/units/orbital/orbital_probe/orbital_probe_anim_start.papa",
-      "stop": "/pa/units/orbital/orbital_probe/orbital_probe_anim_stop.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/orbital_probe_anim_tree.json"
+    "filename": "/pa/units/th-addon/spy_sat/spy_sat.papa"
   },
   "navigation": {
     "type": "orbital",
